@@ -1,0 +1,220 @@
+header{
+    background-color: rgba(15, 15, 15, 0.948);
+    border: 1px solid #000000;
+    border-radius: 0%;
+}
+
+.logo{
+    width: 10%;
+    position: relative;
+    left: 15%;
+}
+
+nav{
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: capitalize;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #949904;
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+}
+
+#servicios{
+    padding: 50px;
+}
+
+.titulo-servicios{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.lista-servicios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.lista-servicios a{
+    color: black;
+    text-decoration: none;
+}
+
+.lista-servicios h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lista-servicios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+
+.lista-servicios li:hover{
+    border-color: #949904;
+}
+
+.lista-servicios li:active{
+    border-color: #08368c;
+}
+
+.lista-servicios li:hover h2{
+    font-size: 33px;
+}
+
+.img-servicios{
+    width: 60%;
+}
+
+#horario{
+    padding: 50px;
+    color: black;
+    border-radius: 25%;
+    transition: background-color 3s;
+}
+
+#horario:hover {
+    background-color: #94949238;
+}
+
+.titulo-horario{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    padding-bottom: 2%;
+}
+
+table{
+    text-align: center;
+    margin: 40px 40px;
+    width: 100%;
+    position: relative;
+    right: 2%;
+}
+
+thead{
+    background: #d5fa03;
+    color: black;
+}
+
+td, th{
+    border: 1px solid #07133d;
+    padding: 15px;
+}
+
+#ubicacion{
+    padding: 25px;
+    border-radius: 25%;
+    transition: background-color 3s;
+}
+
+#ubicacion:hover{
+    background-color: #94949238;
+}
+
+.titulo-ubicacion{
+    margin: 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 25px;
+}
+
+.mapa{
+    padding: 3em 0;
+}
+
+#contacto{
+    padding: 25px;
+    background-color: #1d1d1d;
+}
+
+.titulo-contacto{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+}
+
+.descripcion-contacto{
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.lista-contacto{
+    text-align: center;
+    padding: 2%;
+}
+
+.lista-contacto li{
+    display: inline-block;
+}
+
+.img-whatsapp{
+    position: relative;
+    top: 5px;
+    width: 5%;
+}
+
+.img-instagram{
+    position: relative;
+    top: 5px;
+    width: 5%;
+}
+
+.lista-contacto a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+.lista-contacto a:hover{
+    color: #949904;
+    text-decoration: underline;
+}
+
+footer{
+    padding: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.logo-footer{
+    width: 10%;
+    position: relative;
+    padding: 1.5%;
+}
